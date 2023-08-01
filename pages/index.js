@@ -21,7 +21,7 @@ export default function Home() {
       <main className='bg-white px-10'>
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
-            <Image src={logoBlack} width={50} height={50} />
+            <Image src={logoBlack} width={50} height={50} alt='logoBlack'/>
             <ul className='flex items-center'>
               <li><a className='font-visbyRegular px-2 font-semibold' href="#">About Me</a></li>
               <li><a className='font-visbyRegular px-2 font-semibold' href="#">Portfolio</a></li>
@@ -33,7 +33,7 @@ export default function Home() {
           <div className='text-center'>
             <h2 className='text-5xl py-2 text-sky-950 font-medium'>Eduardo Pineda</h2>
             <h3 className='text-2xl py-2'>Front-end Developer and Designer.</h3>
-            <p className='text-md py-5 leading-8 text-gray-800'>Jr web developer providing services for programming and desing awesome web sites. Contact me down below and let's get coding!</p>
+            <p className='text-md py-5 leading-8 text-gray-800'>Jr web developer providing services for programming and desing awesome web sites. Contact me down below and let´s get coding!</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-sky-950'>
             <a href="https://github.com/EduardoPinedaH" target='_blank'><AiFillGithub className='cursor-pointer'/></a>
@@ -41,7 +41,7 @@ export default function Home() {
             <a href="#"><BsStackOverflow className='cursor-pointer' target='_blank'/></a>
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-gray-950 to-sky-950 rounded-full w-80 h-80 mt-20 overflow-hidden'>
-            <Image src={me} layout='fill' objectFit='cover'/>
+            <Image src={me} layout='fill' objectFit='cover' alt='me'/>
           </div>
         </section>
         <section>
@@ -49,7 +49,7 @@ export default function Home() {
             <h3 className='text-3xl py-2 font-visbyRegular font-bold'>My Journey</h3>
             <p className='text-md py-2 leading-8 text-gray-800 font-visbyRegular'>
               Web developing started as a hobby for me, since I studied <span className='text-cyan-800'>filmaking</span> and <span className='text-cyan-800'>design</span> it was a whole new world at first
-              but with time now I'm able to make some cool website just like <span className='text-cyan-800'>this one!</span>
+              but with time now I´m able to make some cool website just like <span className='text-cyan-800'>this one!</span>
             </p>
             <p className='text-md my-2 leading-8 text-gray-800 font-visbyRegular'>
               I offer a wide range of services, such as programming and designing awesome sites.
@@ -57,7 +57,7 @@ export default function Home() {
           </div>
           <div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image src={figma} width={100} height={100} className='mx-auto'/>
+              <Image src={figma} width={100} height={100} className='mx-auto' alt='figma'/>
               <h3 className='text-lg pt-8 pb-2 font-visbyRegular font-bold'>Awesome Designs</h3>
               <p className='py-2 font-visbyRegular'>
                 Creating creative design that matches your needs, following trends and best design out there in the market.
@@ -68,8 +68,8 @@ export default function Home() {
               <p className='text-gray-800 py-1 font-visbyRegular'>Illustrator</p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image src={code} width={100} height={100} className='mx-auto'/>
-              <h3 className='text-lg pt-8 pb-2 font-visbyRegular font-bold'>Let's get codding</h3>
+              <Image src={code} width={100} height={100} className='mx-auto' alt='code'/>
+              <h3 className='text-lg pt-8 pb-2 font-visbyRegular font-bold'>Let´s get codding</h3>
               <p className='py-2'>
                 Making your ideas come to life.
               </p>
@@ -79,7 +79,7 @@ export default function Home() {
               <p className='text-gray-800 py-1 font-visbyRegular'>Illustrator</p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image src={blender} width={100} height={100} className='mx-auto'/>
+              <Image src={blender} width={100} height={100} className='mx-auto' alt='blender'/>
               <h3 className='text-lg pt-8 pb-2 font-visbyRegular font-bold'>3D Focused Websites</h3>
               <p className='py-2'>
                 Let your website come to life with beautiful animations and stunning 3d models.
