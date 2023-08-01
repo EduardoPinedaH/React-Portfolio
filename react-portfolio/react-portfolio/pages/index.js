@@ -1,6 +1,11 @@
 import Head from 'next/head';
 import {BsFillMoonFill, BsStackOverflow} from 'react-icons/bs';
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
+import Image from 'next/image';
+import me from '../public/me.png';
+import code from '../public/code.png';
+import obj3d from '../public/blender.png';
+import design from '../public/design.png'
 
 export default function Home() {
   return (
@@ -17,18 +22,68 @@ export default function Home() {
             <h1 className='text-xl font-visby font-bold'>eduardopinedahu</h1>
             <ul className='flex items-center'>
               <li><BsFillMoonFill className='cursor-pointer text-2xl'/></li>
-              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 font-visby' href="#">CV</a></li>
+              <li><a className='bg-sky-950 text-white px-4 py-2 rounded-md ml-8 font-visby' href="#">CV</a></li>
             </ul>
           </nav>
           <div className='text-center p-10'>
-            <h2>Eduardo Pineda</h2>
-            <h3>Front-end Developer and Designer</h3>
-            <p>Jr web developer providing services for programming and desing awesome web sites. Contact me down below and let's get coding!</p>
+            <h2 className='text-5xl py-2 text-sky-950 font-medium'>Eduardo Pineda</h2>
+            <h3 className='text-2xl py-2'>Front-end Developer and Designer.</h3>
+            <p className='text-md py-5 leading-8 text-gray-800'>Jr web developer providing services for programming and desing awesome web sites. Contact me down below and let's get coding!</p>
           </div>
-          <div>
+          <div className='text-5xl flex justify-center gap-16 py-3 text-sky-950'>
             <a href="https://github.com/EduardoPinedaH" target='_blank'><AiFillGithub className='cursor-pointer'/></a>
             <a href="https://www.linkedin.com/in/eduardopinedahu" target='_blank'><AiFillLinkedin className='cursor-pointer'/></a>
             <a href="#"><BsStackOverflow className='cursor-pointer' target='_blank'/></a>
+          </div>
+          <div className='relative mx-auto bg-gradient-to-b from-gray-950 to-sky-950 rounded-full w-80 h-80 mt-20 overflow-hidden'>
+            <Image src={me} layout='fill' objectFit='cover'/>
+          </div>
+        </section>
+        <section>
+          <div>
+            <h3 className='text-3xl py-1'>My Journey</h3>
+            <p className='text-md py-2 leading-8 text-gray-800'>
+              Web developing started as a hobby for me, since I studied <span className='text-cyan-800'>filmaking</span> and <span className='text-cyan-800'>design</span> it was a whole new world at first
+              but with time now I'm able to make some cool website just like <span className='text-cyan-800'>this one!</span>
+            </p>
+            <p className='text-md my-2 leading-8 text-gray-800'>
+              I offer a wide range of services, such as programming and designing awesome sites.
+            </p>
+          </div>
+          <div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image src={design} width={100} height={100} className='mx-auto'/>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Awesome Designs</h3>
+              <p className='py-2'>
+                Creating creative design that matches your needs, following trends and best design out there in the market.
+              </p>
+              <h4 className='py-4 text-cyan-800 font-medium'>Tools that I use</h4>
+              <p className='text-gray-800 py-1'>Figma</p>
+              <p className='text-gray-800 py-1'>Photoshop</p>
+              <p className='text-gray-800 py-1'>Illustrator</p>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image src={design} width={100} height={100} className='mx-auto'/>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Let's get codding</h3>
+              <p className='py-2'>
+                Making your ideas come to life.
+              </p>
+              <h4 className='py-4 text-cyan-800 font-medium'>Tools that I use</h4>
+              <p className='text-gray-800 py-1'>React</p>
+              <p className='text-gray-800 py-1'>Three.js</p>
+              <p className='text-gray-800 py-1'>Illustrator</p>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image src={design} width={100} height={100} className='mx-auto'/>
+              <h3 className='text-lg font-medium pt-8 pb-2'>3D Focused Websites</h3>
+              <p className='py-2'>
+                Let your website come to life with beautiful animations and stunning 3d models.
+              </p>
+              <h4 className='py-4 text-cyan-800 font-medium'>Tools that I use</h4>
+              <p className='text-gray-800 py-1'>Blender</p>
+              <p className='text-gray-800 py-1'>Premiere</p>
+              <p className='text-gray-800 py-1'>After Effects</p>
+            </div>
           </div>
         </section>
       </main>
