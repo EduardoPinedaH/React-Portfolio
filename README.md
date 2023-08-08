@@ -42,17 +42,12 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Portfolio images
 
-![image](https://github.com/EduardoPinedaH/React-Portfolio/assets/123011718/9cc9d872-2cbb-4cc9-98d3-7150d79663cf)
-![image](https://github.com/EduardoPinedaH/React-Portfolio/assets/123011718/b638b038-adbe-4ff7-97fc-e253917f442e)
-
-![image](https://github.com/EduardoPinedaH/React-Portfolio/assets/123011718/2942c593-60b6-4927-946e-6c3765d9cc2a)
-
-![image](https://github.com/EduardoPinedaH/React-Portfolio/assets/123011718/ef136f8d-c70c-4d74-bd7b-5c466497842d)
-![image](https://github.com/EduardoPinedaH/React-Portfolio/assets/123011718/274134a4-2905-4544-b84a-f2d6abb754df)
-![image](https://github.com/EduardoPinedaH/React-Portfolio/assets/123011718/bb460cfa-5cc3-4bbe-9703-96ff2e0c9e10)
-
-![image](https://github.com/EduardoPinedaH/React-Portfolio/assets/123011718/ded77469-7cca-4a4f-a10f-78b63179bf71)
-
+![image](https://github.com/EduardoPinedaH/React-Portfolio/assets/123011718/cb60e72c-88b7-494c-ad64-08447ab851d9)
+![image](https://github.com/EduardoPinedaH/React-Portfolio/assets/123011718/0f853966-dcf1-4835-9e82-cb161c027f51)
+![image](https://github.com/EduardoPinedaH/React-Portfolio/assets/123011718/90b99484-046c-4a69-a945-b20ee5099f68)
+![image](https://github.com/EduardoPinedaH/React-Portfolio/assets/123011718/1d9ac046-1d0a-4066-b7c9-6b7c2c28cc61)
+![image](https://github.com/EduardoPinedaH/React-Portfolio/assets/123011718/a86fce67-1b67-4f55-866b-8c83b95e5f35)
+![image](https://github.com/EduardoPinedaH/React-Portfolio/assets/123011718/4cbca71a-ea86-4634-b473-830c482f7a0e)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
