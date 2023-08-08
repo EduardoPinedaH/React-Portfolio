@@ -49,6 +49,9 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ![image](https://github.com/EduardoPinedaH/React-Portfolio/assets/123011718/a86fce67-1b67-4f55-866b-8c83b95e5f35)
 ![image](https://github.com/EduardoPinedaH/React-Portfolio/assets/123011718/4cbca71a-ea86-4634-b473-830c482f7a0e)
 
+## Deployed Page
+https://eduardopinedah.github.io/React-Portfolio/
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
