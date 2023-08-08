@@ -8,9 +8,7 @@ import blender from "../public/blender.png";
 import figma from "../public/figma.png";
 import Nav from "../pages/nav";
 import Footer from "../pages/footer";
-import Projects from "../pages/projects";
 import {useState} from "react";
-
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -95,7 +93,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <Projects/>
       </main>
       < Footer/>
     </div>
