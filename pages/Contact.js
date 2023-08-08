@@ -22,7 +22,7 @@ export default function Contact() {
               <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <h4 className="text-3xl py-10 font-poppins font-bold md:text-center">Contact Me</h4>
                 <form>
-                  <div class="grid grid-cols-2 gap-5">
+                  <div className="grid grid-cols-2 gap-5">
                     <input
                       type="text"
                       className="border border-gray-500 px-4 py-2"
