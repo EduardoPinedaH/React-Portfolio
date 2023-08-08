@@ -1,11 +1,11 @@
 import React from "react";
-import Image from 'next/image';
-import roomiehunt from '../public/roomiehunt.png';
-import encriptador from '../public/encriptador.png';
-import solarwaffle from '../public/solarwaffle.png';
-import oregonracing from '../public/oregonracing.png';
-import videoportfolio from '../public/videoportfolio.png';
-import codingquiz from '../public/codingquiz.png';
+import Image from "next/image";
+import roomiehunt from "../public/roomiehunt.png";
+import encriptador from "../public/encriptador.png";
+import solarwaffle from "../public/solarwaffle.png";
+import oregonracing from "../public/oregonracing.png";
+import videoportfolio from "../public/videoportfolio.png";
+import codingquiz from "../public/codingquiz.png";
 
 export default function Projects() {
   return (
@@ -15,7 +15,7 @@ export default function Projects() {
           My Projects
         </h3>
         <p className="text-md py-2 leading-8 text-gray-800 font-poppins dark:text-slate-100">
-          Some of the work I´ve done throught my time{" "}
+          Some of the work I&#39;ve done throught my time{" "}
           <span className="text-cyan-800 font-bold">coding.</span> Where I showcase some of
           my knlowedge with <span className="text-cyan-800 font-bold">HTML, CSS</span>{" "}
           and <span className="text-cyan-800 font-bold">JavaScript,</span> 3d modelling
@@ -36,7 +36,7 @@ export default function Projects() {
               layout="responsive"
             />
           </a>
-          <h3 className='text2xl pt-5 pb-3 font-poppins font-medium md:text-center md:text-4xl dark:text-white'>Eduardo Pineda's Portfolio</h3>
+          <h3 className="text2xl pt-5 pb-3 font-poppins font-medium md:text-center md:text-4xl dark:text-white">Eduardo Pineda&#39;s Portfolio</h3>
             <p className="text-md leading-8 text-gray-800 font-poppins dark:text-slate-100">
               As a filmmaker and video editor I needed a professional portfolio, on this website I showcase my knowledge of
               <span className="text-sky-950 dark:text-white font-bold"> HTML, CSS</span> and <span className="text-sky-950 dark:text-white font-bold">JavaScript</span> by
@@ -57,7 +57,7 @@ export default function Projects() {
               layout="responsive"
             />
           </a>
-          <h3 className='text2xl pt-5 pb-3 font-lora font-medium md:text-center md:text-4xl dark:text-white'>roomiehunt</h3>
+          <h3 className="text2xl pt-5 pb-3 font-lora font-medium md:text-center md:text-4xl dark:text-white">roomiehunt</h3>
           <p className="text-md  leading-8 text-gray-800 font-poppins dark:text-slate-100">
             Some Text
           </p>
@@ -73,7 +73,7 @@ export default function Projects() {
               layout="responsive"
             />
           </a>
-          <h3 className='text2xl pt-5 pb-3 font-openSans font-medium md:text-center md:text-4xl dark:text-white'>Oregon Racing</h3>
+          <h3 className="text2xl pt-5 pb-3 font-openSans font-medium md:text-center md:text-4xl dark:text-white">Oregon Racing</h3>
           <p className="text-md leading-8 text-gray-800 font-poppins dark:text-slate-100">
             Some Text
           </p>
@@ -92,7 +92,7 @@ export default function Projects() {
               layout="responsive"
             />
           </a>
-          <h3 className='text2xl pt-5 pb-3 font-poppins font-medium md:text-center md:text-4xl dark:text-white'>Text Encriptor</h3>
+          <h3 className="text2xl pt-5 pb-3 font-poppins font-medium md:text-center md:text-4xl dark:text-white">Text Encriptor</h3>
           <p className="text-md leading-8 text-gray-800 font-poppins dark:text-slate-100">
             Some Text
           </p>
@@ -108,7 +108,7 @@ export default function Projects() {
               layout="responsive"
             />
           </a>
-          <h3 className='text2xl pt-5 pb-3 font-poppins font-medium md:text-center md:text-4xl dark:text-white'>Solar Waffle</h3>
+          <h3 className="text2xl pt-5 pb-3 font-poppins font-medium md:text-center md:text-4xl dark:text-white">Solar Waffle</h3>
           <p className="text-md leading-8 text-gray-800 font-poppins dark:text-slate-100">
             Some Text
           </p>
@@ -127,7 +127,7 @@ export default function Projects() {
               layout="responsive"
             />
           </a>
-          <h3 className='text2xl pt-5 pb-3 font-poppins font-medium md:text-center md:text-4xl dark:text-white'>Coding Quiz</h3>
+          <h3 className="text2xl pt-5 pb-3 font-poppins font-medium md:text-center md:text-4xl dark:text-white">Coding Quiz</h3>
           <p className="text-md leading-8 text-gray-800 font-poppins dark:text-slate-100">
             Some Text
           </p>

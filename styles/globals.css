@@ -24,22 +24,22 @@ a {
 }
 
 @font-face {
-  font-family: 'visby-regular';
-  src: url('../public/VisbyCF-Regular.otf'),
+  font-family: "visby-regular";
+  src: url("../public/VisbyCF-Regular.otf"),
 }
 
 @font-face {
-  font-family: 'lora';
-  src: url('../public/Lora.ttf');
+  font-family: "lora";
+  src: url("../public/Lora.ttf");
 }
 
 @font-face {
-  font-family: 'poppins';
-  src: url('../public/Poppins-Regular.ttf');
+  font-family: "poppins";
+  src: url("../public/Poppins-Regular.ttf");
 }
 
 @font-face {
-  font-family: '"open sans';
-  src: url('../public/OpenSans-VariableFont_wdth\,wght.ttf');
+  font-family: '"open sans"';
+  src: url("../public/OpenSans-VariableFont_wdth\,wght.ttf");
 }
 
