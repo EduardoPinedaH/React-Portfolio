@@ -2,12 +2,12 @@ import Head from "next/head";
 import React from "react";
 import Image from "next/image";
 import Nav from "../pages/nav";
-import roomiehunt from "../public/roomiehunt.png";
-import encriptador from "../public/encriptador.png";
-import solarwaffle from "../public/solarwaffle.png";
-import oregonracing from "../public/oregonracing.png";
-import videoportfolio from "../public/videoportfolio.png";
-import codingquiz from "../public/codingquiz.png";
+import roomiehunt from "../public/roomiehunt2.png";
+import encriptador from "../public/encriptador2.png";
+import solarwaffle from "../public/solarwaffle2.png";
+import oregonracing from "../public/oregonracing2.png";
+import videoportfolio from "../public/videoportfolio2.png";
+import goalhub from "../public/goalhub.png";
 import Footer from "../pages/footer";
 import {useState} from "react";
 
@@ -78,6 +78,31 @@ export default function Projects() {
                   </p>
               </div>
               <div className="basis-1/3 flex-1">
+                <a href="https://goalhub-5f7766233267.herokuapp.com/" target="_blank">
+                  <Image
+                    src={goalhub}
+                    alt="oregonracing"
+                    className="rounded-lg object-cover cursor-pointer"
+                    width={"100%"}
+                    height={"100%"}
+                    layout="responsive"
+                  />
+                </a>
+                <h3 className="text2xl pt-5 pb-3 font-poppins font-medium md:text-center md:text-4xl dark:text-white">GoalHub</h3>
+                <p className="text-md leading-8 text-gray-800 font-poppins dark:text-slate-100">
+                    Empower company <span className="text-sky-950 dark:text-white font-bold">employees</span> to track departmental
+                    <span className="text-sky-950 dark:text-white font-bold">goals</span> and personal <span className="text-sky-950 dark:text-white font-bold">achievements</span> within a dynamic social networking platform.
+                    With GoalHub, workers can <span className="text-sky-950 dark:text-white font-bold">collaborate, share</span> their progress, and <span className="text-sky-950 dark:text-white font-bold">celebrate</span> their successes on a weekly basis, fostering a motivated and connected workforce.
+                    
+                </p>
+                <p className="text-md leading-8 text-gray-800 font-poppins dark:text-slate-100">
+                  <span className="text-sky-950 dark:text-white font-bold">Demo email:</span> employeedemo@email.com 
+                </p>
+                <p className="text-md leading-8 text-gray-800 font-poppins dark:text-slate-100">
+                  <span className="text-sky-950 dark:text-white font-bold">Demo password:</span> DemoE123
+                </p>
+              </div>
+              <div className="basis-1/3 flex-1">
                 <a href="https://oregonracing.club/" target="_blank">
                   <Image
                     src={oregonracing}
@@ -132,27 +157,6 @@ export default function Projects() {
                 The app offers user <span className="text-sky-950 dark:text-white font-bold">interaction and animation</span> for the planets.
                 Once on the planet information screen, the <span className="text-sky-950 dark:text-white font-bold">3D object</span> of the planet will enable interaction with the user, 
                 allowing them to move it around with the mouse.
-                </p>
-              </div>
-              <div className="basis-1/3 flex-1">
-                <a
-                  href="https://eduardopinedah.github.io/Code-Quiz-Game/"
-                  target="_blank"
-                >
-                  <Image
-                    src={codingquiz}
-                    alt="codingquiz"
-                    className="rounded-lg object-cover"
-                    width={"100%"}
-                    height={"100%"}
-                    layout="responsive"
-                    cursor-pointer
-                  />
-                </a>
-                <h3 className="text2xl pt-5 pb-3 font-poppins font-medium md:text-center md:text-4xl dark:text-white">Coding Quiz</h3>
-                <p className="text-md leading-8 text-gray-800 font-poppins dark:text-slate-100">
-                  On this site you can find <span className="text-sky-950 dark:text-white font-bold">code-related</span> quiz game with <span className="text-sky-950 dark:text-white font-bold">multiple answers</span>, 
-                  with <span className="text-sky-950 dark:text-white font-bold">time limit</span> and a <span className="text-sky-950 dark:text-white font-bold">highscore</span> that keeps track of the scores.
                 </p>
               </div>
             </div>
